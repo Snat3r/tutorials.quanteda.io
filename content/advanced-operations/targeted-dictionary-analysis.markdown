@@ -31,7 +31,7 @@ corp_news <- corpus_subset(corp_news, "year" >= 2016)
 toks_news <- tokens(corp_news, remove_punct = TRUE)
 ```
 
-You can use `tokens_lookup()` or `dfm_looup()` to count dictionary values. **quanteda** contains Lexicoder Sentiment Dictionary created by Young and Soroka, so you can perfrom sentiment analysis of English texts right away.
+You can use `tokens_lookup()` or `dfm_lookup()` to count dictionary values. **quanteda** contains Lexicoder Sentiment Dictionary created by Young and Soroka, so you can perfrom sentiment analysis of English texts right away.
 
 
 ```r
